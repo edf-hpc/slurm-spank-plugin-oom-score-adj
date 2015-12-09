@@ -166,7 +166,7 @@ static int _set_oom_score_adj (pid_t pid, int value)
         if (errno == ENOENT)
             debug("%s doesn't exist: %m", oom_score_adj_file);
         else
-            error("failed to open %s, error %d: %m", errno, oom_score_adj_file);
+            error("failed to open %s, error %d: %m", oom_score_adj_file, errno);
         return -1;
     }
 
