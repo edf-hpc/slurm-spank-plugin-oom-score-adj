@@ -1,0 +1,5 @@
+slurm-wlm-spank-plugin-oom-score-adj (0.20151209+c9+1) calibre9; urgency=low
+
+  * Initial release.
+
+ -- Ana Guerrero <ana-externe.guerrero@edf.fr>  Wed, 09 Dec 2015 09:05:04 +0100

@@ -1,0 +1,13 @@
+Source: slurm-wlm-spank-plugin-oom-score-adj
+Section: libs
+Priority: extra
+Maintainer: Ana Guerrero <ana-externe.guerrero@edf.fr>
+Build-Depends: debhelper (>= 8), libslurm-dev
+Standards-Version: 3.9.1
+
+Package: slurm-wlm-spank-plugin-oom-score-adj
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, slurm-wlm-basic-plugins
+Description: Slurm spank plugin for OOM killer score advisory
+ This plugin adjusts the Out-of-Memory (OOM) score of the tasks
+ spawned by Slurm.
